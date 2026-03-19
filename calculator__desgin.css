@@ -66,12 +66,14 @@ body{
 }
 
 .calculator{
-    width:99%;
+    width:100%;
     max-width:420px;
-    /* height: 650px; */
+    height: 700px;
     display: flex;
     align-items: baseline;
     justify-content: flex-start;
+    padding:0;
+    margin:0
 }
 
 .button{
@@ -80,7 +82,7 @@ body{
     gap:10px;
     padding:10px;
     width: 95%;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 
 .button-style,
@@ -90,6 +92,14 @@ body{
     width:100%;
     border-radius:10px;
     font-size:25px;
+    align-items: center;
+    justify-content: center;
+}
+.button-style__btn{
+    display:flex;
+    grid-column: span 2;
+    width:180px;
+    
 }
 
 .input-box{
